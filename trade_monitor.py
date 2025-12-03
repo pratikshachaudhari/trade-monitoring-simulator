@@ -1,5 +1,3 @@
-# trade_monitor.py
-
 import logging
 from typing import List
 from config import APP_LOG_PATH, ALERT_LOG_PATH, MAX_TRADE_AMOUNT, MIN_TRADE_AMOUNT
