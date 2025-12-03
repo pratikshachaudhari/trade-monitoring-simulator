@@ -1,5 +1,3 @@
-# trade_producer.py
-
 import random
 import logging
 import uuid
@@ -25,7 +23,6 @@ def generate_trade() -> tuple:
     price = round(random.uniform(10, 500), 2)
     amount = round(quantity * price, 2)
 
-    # status is always NEW for now
     status = "NEW"
 
     return (trade_id, symbol, side, quantity, price, amount, status)
