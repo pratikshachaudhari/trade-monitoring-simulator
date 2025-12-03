@@ -121,7 +121,6 @@ Sample Alerts
 ---
 
 Future Enhancements
-You can expand the project with:
 - API latency simulation  
 - failed message retries  
 - trade replay logic  
