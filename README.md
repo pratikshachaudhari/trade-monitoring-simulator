@@ -133,5 +133,3 @@ Author
 Pratiksha Chaudhari  
 Application Support / SRE Support Engineer  
 
-LinkedIn: *your link*  
-GitHub: *your link*
