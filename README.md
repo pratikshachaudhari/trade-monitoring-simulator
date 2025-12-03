@@ -97,12 +97,14 @@ trade-monitoring-simulator/
 
 How to Run
 
-Clone this repository
+# Clone this repository
     git clone https://github.com/your-username/trade-monitoring-simulator.git
     cd trade-monitoring-simulator
-Run the project
+
+# Run the project
     python main.py
-Check outputs
+
+# Check outputs
 - `logs/app.log` → trade activity  
 - `logs/alerts.log` → alerts  
 - `data/trades.db` → use DB Browser for SQLite to view data  
