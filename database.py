@@ -1,5 +1,3 @@
-# database.py
-
 import sqlite3
 from typing import List, Tuple
 from config import DB_PATH
@@ -10,7 +8,6 @@ def get_connection():
     return conn
 
 def init_db():
-    """Create trades table if it doesn't exist."""
     conn = get_connection()
     cursor = conn.cursor()
 
@@ -33,7 +30,6 @@ def init_db():
     conn.close()
 
 def insert_trade(trade: Tuple[str, str, str, int, float, float, str]):
-    """Insert a single trade row."""
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute(
